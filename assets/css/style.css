@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Lazer84'; /*a name to be used later*/
+    src: url('../fonts/Lazer84.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'SEGA'; /*a name to be used later*/
+    src: url('../fonts/SEGA.TTF'); /*URL to font*/
+}
+
+.bodycontainer {
+    background-image: url("../images/mainbg.png");
+    width: 100%;
+    min-width: 100%;
+    clear: both;
+}
+/* 90s background image */
+.jumbotron {
+    background-image: url("../images/cupbg.jpg");
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 20px rgb(130, 0, 252);
+}
+/* Large header text */
+.display-4 {
+    text-align-last: center;
+    font-size: 155px;
+    font-family: 'Lazer84';
+    color: rgb(8, 255, 70);
+    text-shadow: 12px 15px  #ff5af1;
+    transform:rotateZ(-8deg);
+}
+.lead {
+    text-align: center;
+    font-family: 'SEGA';
+    color: blue;
+    font-size: 50px;
+}
+.startText {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-family: 'Lazer84';
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px  #ff5af1;
+}
+
+.winchangeimg {
+    margin-bottom: 100px;
+}
+ .onwinimg {
+     border-radius: 5px;
+     box-shadow: 15px 15px rgb(130, 0, 252);
+ }
+ .mainbody {
+    /* background-image: url("../images/TVborder.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(101, 101, 253);
+    border-radius: 5px;
+    box-shadow: 15px 15px rgb(130, 0, 252);
+    
+    
+ }
+
+ .titles {
+    font-family: 'Lazer84';
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px  #ff5af1;
+    font-size: 40px;
+ }
+
+ .answers {
+    font-family: 'Lazer84';
+    color: rgb(8, 255, 70);
+    text-shadow: 2px 2px  #ff5af1;
+    font-size: 40px;
+ }
+
+ span {
+     text-align: center;
+ }

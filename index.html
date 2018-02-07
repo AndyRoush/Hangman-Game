@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Hang-Man Game!!</title>
+</head>
+<body>
+    <div class="container bodycontainer">
+<!-- Jumbotron displaying large header text -->
+    <div class="jumbotron">
+        <h1 class="display-4">90's TV Shows</h1>
+        <p class="lead">Hangman</p>
+    </div>
+
+<!-- press any key row -->
+    <div class="row">
+        <div class="col-12">
+        <h3 class="startText text-center">Press any key to get started!</h3>
+        </div>
+    </div>
+<!-- picture change Div -->
+    <div class="row">
+      <div class="col-12 winchangeimg">
+    <!-- 90's image that will change on win -->
+        <img src="assets/images/Seinfeld.jpg" class="mx-auto d-block onwinimg" alt="Seinfeld">
+      </div>
+    </div>
+    <div class="row mainbody">
+        <div class="col-12">
+            <h3 class="text-center titles">Current Word</h3>
+            <br>
+            <h2 class="text-center answers" id="underScore"></h2>
+            <br>
+            <br>
+            <h2 class="text-center titles">Wrong Guesses</h2>
+                <h2 id="wrong-guess" class="text-center answers"></h2>
+            <br>
+            <br>
+            <h2 class="text-center titles">Guesses Left: </h2> 
+                <h2 id="guesses-left" class="text-center answers">10</h2>
+            <br>
+            <br>
+            <h2 class="text-center titles">Wins: </h2> 
+                <h2 id="win-counter" class="text-center answers">0</h2>
+            <br>
+            <br>
+            <h2 class="text-center titles">Losses: </h2>
+                <h2 id="loss-counter" class="text-center answers">0</h2>
+        </div>
+    </div>
+    </div>
+
+
+    
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
