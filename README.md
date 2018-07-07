@@ -1,6 +1,7 @@
 # Hangman-Game
 
-JavaScript Assignment
+<h3>JavaScript Assignment</h3>
+<h5>Assignment #3</h5>
 
 
 Overview
