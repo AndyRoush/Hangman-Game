@@ -3,13 +3,15 @@
 <h3>JavaScript Assignment</h3>
 <h5>Assignment #3</h5>
 
+<img src="rimages/hangman2.PNG" width="900">
 
-Overview
+
+<h3>Overview</h3>
 
 In this assignment, you'll create one of two possible computer games: Hangman or Psychic. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
 
 
-Before You Begin
+<h3>Before You Begin</h3>
 
 
 Create a new GitHub repo called Hangman-Game or Psychic-Game, in accordance with the assignment you choose to complete. Then, clone it to your computer.
